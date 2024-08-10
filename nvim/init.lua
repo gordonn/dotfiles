@@ -116,9 +116,17 @@ require("lazy").setup({
   {
     "nvim-lua/plenary.nvim", -- lua functions that many plugins use
     "christoomey/vim-tmux-navigator", -- tmux & split window navigation
+
+    -- lsp plugins
+    { "VonHeikemen/lsp-zero.nvim", branch = "v4.x" },
+    { "williamboman/mason.nvim" },
+    { "williamboman/mason-lspconfig.nvim" },
+    { "neovim/nvim-lspconfig" },
+    { "hrsh7th/cmp-nvim-lsp" },
+    { "hrsh7th/nvim-cmp" },
+    { "L3MON4D3/LuaSnip" },
   },
 
-  { import = "gordon.lsp" },
   { import = "gordon.ui" },
   { import = "gordon.syntax" },
   { import = "gordon.navigation" },
@@ -131,3 +139,5 @@ require("lazy").setup({
     notify = false,
   },
 })
+
+require("gordon.lsp-zero")
