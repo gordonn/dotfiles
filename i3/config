@@ -73,10 +73,6 @@ bindsym $mod+Print exec --no-startup-id flameshot gui -d 5000
 #start rofi
 bindsym $mod+i exec --no-startup-id "rofi -show";
 
-# assign workspaces
-assign [class="firefox"] 2
-assign [class="Nautilus"] 3
-
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 
@@ -239,5 +235,4 @@ gaps inner 16
 
 # Configure an additional 5px of extra space to the screen edges,
 # for a total gap of 10px to the screen edges, and 5px between windows.
-
 

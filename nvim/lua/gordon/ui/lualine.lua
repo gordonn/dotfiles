@@ -56,7 +56,7 @@ return {
         theme = my_lualine_theme,
         globalstatus = true,
         component_separators = { left = "", right = "" },
-        section_separators = { left = "", right = "" },
+        section_separators = { left = "", right = "" },
       },
 
       sections = {

@@ -8,35 +8,59 @@ return {
     vim.g.loaded_netrwPlugin = 1
 
     nvimtree.setup({
-      view = {
-        width = 35,
-        relativenumber = true,
-      },
       renderer = {
+        root_folder_label = false,
         indent_markers = {
           enable = true,
         },
         icons = {
           glyphs = {
-            folder = {
-              arrow_closed = "",
-              arrow_open = "",
+            default = " ",
+            symlink = " ",
+            git = {
+              untracked = " ",
             },
+          },
+          show = {
+            git = true,
+            folder = true,
+            file = true,
+            folder_arrow = false,
           },
         },
       },
       actions = {
         open_file = {
           window_picker = {
-            enable = false,
+            exclude = {
+              filetype = {
+                "packer",
+                "qf",
+              },
+              buftype = {
+                "terminal",
+                "help",
+              },
+            },
           },
         },
       },
       filters = {
-        custom = { ".DS_Store" },
+        exclude = { ".git", "node_modules", ".cache" },
+      },
+      update_focused_file = {
+        enable = true,
+        update_root = true,
       },
       git = {
+        enable = true,
         ignore = false,
+        timeout = 500,
+      },
+      hijack_directories = { enable = true },
+      view = {
+        side = "left",
+        adaptive_size = true,
       },
     })
 

@@ -15,8 +15,6 @@ opt.relativenumber = true
 
 opt.number = true
 
-opt.colorcolumn = "80"
-
 opt.tabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
@@ -49,6 +47,8 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
   pattern = { "*" },
   command = [[%s/\s\+$//e]],
 })
+
+vim.wo.signcolumn = "no"
 
 --[[
 ██╗░░██╗███████╗██╗░░░██╗███╗░░░███╗░█████╗░██████╗░░██████╗
@@ -114,6 +114,13 @@ require("lazy").setup({
 ]]
 
   {
+    {
+      "goolord/alpha-nvim",
+      config = function()
+        require("gordon.ui.alpha")
+      end,
+    },
+    { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
     "nvim-lua/plenary.nvim", -- lua functions that many plugins use
     "christoomey/vim-tmux-navigator", -- tmux & split window navigation
 
@@ -125,6 +132,7 @@ require("lazy").setup({
     { "hrsh7th/cmp-nvim-lsp" },
     { "hrsh7th/nvim-cmp" },
     { "L3MON4D3/LuaSnip" },
+    { "onsails/lspkind.nvim" },
   },
 
   { import = "gordon.ui" },
@@ -140,4 +148,6 @@ require("lazy").setup({
   },
 })
 
-require("gordon.lsp-zero")
+vim.cmd([[colorscheme gruvbox]])
+
+require("gordon.lsp")

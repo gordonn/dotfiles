@@ -1,6 +1,6 @@
 configuration {
 	modi: "drun";
-	font:	"JetBrains Mono Nerd Font 12";
+	font:	"IosevkaTerm Nerd Font 12";
 	display-drun: "";
 	sidebar-mode: false;
   drun-display-format: "{name}";
@@ -9,10 +9,10 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:	#282828cc;
+	bg:	#282828;
 	fg:	#ebdbb2;
 	background:	#d3869b;
-	input: #32302f90;
+	input: #32302f;
 
 	background-color:	@bg;
 	text-color:	@fg;
@@ -22,7 +22,7 @@ configuration {
 
 window {
 	transparency: "real";
-	width: 21%;
+	width: 20%;
 	y-offset: 10px;
 	padding: 20px;
   border: 1px;
@@ -32,7 +32,7 @@ window {
 prompt { enabled: false; }
 
 entry {
-	placeholder: " Search";
+	placeholder: "Search";
 	expand: true;
 	padding: 5px 2% 5px 2%;
 	background-color: #00000000;
@@ -82,4 +82,3 @@ element selected {
 	background-color: @mauve;
 	text-color: #282828;
 }
-
