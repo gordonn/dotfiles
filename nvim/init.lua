@@ -39,3 +39,11 @@ end)
 vim.opt.relativenumber = true
 
 vim.opt.scrolloff = 999
+
+vim.api.nvim_create_autocmd("BufWritePre", {
+  group = vim.api.nvim_create_augroup("FormatOnSave", { clear = true }),
+  pattern = "*",
+  callback = function()
+    require("conform").format({ async = false })
+  end,
+})
