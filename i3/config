@@ -13,13 +13,13 @@ set $mod Mod4
 
 exec_always --no-startup-id setxkbmap -option "ctrl:swapcaps"
 exec_always --no-startup-id picom
-exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/gruvbox.png
+exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/solid-gruvbox.png
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:JetBrains Mono Nerd Font 12
+font pango:IosevkaTerm Nerd Font 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -55,7 +55,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
+bindsym $mod+Return exec wezterm
 
 # kill focused window
 bindsym $mod+o kill
@@ -211,28 +211,27 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 
-set $rosewater #ebdbb2
-set $mauve     #83a598
-set $peach     #fe8019
-set $text      #fbf1c7
-set $overlay0  #665c54
-set $base      #32302f
-set $mantle    #282828
+set $fg1        #ebdbb2
+set $blue       #83a598
+set $orange     #fe8019
+set $text       #fbf1c7
+set $overlay0   #665c54
+set $base       #32302f
+set $bg         #282828
 
-# target                 title     bg    text      indicator    border
-client.focused           $mantle   $mauve $mantle  $rosewater $mauve
-client.focused_inactive  $overlay0 $base  $text    $rosewater $overlay0
-client.unfocused         $overlay0 $base  $text    $rosewater $overlay0
-client.urgent            $peach    $base  $peach   $overlay0  $peach
-client.placeholder       $overlay0 $base  $text    $overlay0  $overlay0
+# target                 title      bg      text      indicator   border
+client.focused           $bg        $blue   $bg       $fg         $blue
+client.focused_inactive  $overlay0  $base   $text     $fg1        $overlay0
+client.unfocused         $overlay0  $base   $text     $fg1        $overlay0
+client.urgent            $orange    $base   $orange   $overlay0   $orange
+client.placeholder       $overlay0  $base   $text     $overlay0   $overlay0
 client.background        $base
 
 # Disable title bars for all windows
 for_window [class=".*"] border pixel 1, move
 
-# Configure 5px of space between windows and to the screen edges.
+# Configure an additional 5px of extra space to the screen# Configure 5px of space between windows and to the screen edges.
 gaps inner 16
 
-# Configure an additional 5px of extra space to the screen edges,
 # for a total gap of 10px to the screen edges, and 5px between windows.
 

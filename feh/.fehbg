@@ -1,2 +1,0 @@
-#!/bin/sh
-feh --no-fehbg --bg-scale '/home/gordon/.config/wallpapers/gruvbox.png'
