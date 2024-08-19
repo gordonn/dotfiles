@@ -1,4 +1,4 @@
-# i3 & gruvbox - minimalist 🍚 
+# minimalist ~ i3 & gruvbox 🍚 
 
 ![image](https://github.com/user-attachments/assets/4f780079-83f1-4e99-b173-a7182c304e4b)
 
