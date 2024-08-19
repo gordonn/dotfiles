@@ -13,7 +13,7 @@ set $mod Mod4
 
 exec_always --no-startup-id setxkbmap -option "ctrl:swapcaps"
 exec_always --no-startup-id picom
-exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/solid-gruvbox.png
+exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/gruvbox-beach-dim.png
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 
