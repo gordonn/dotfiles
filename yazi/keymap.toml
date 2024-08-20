@@ -9,11 +9,5 @@ prepend_keymap = [
         ''',
         "yank"
     ], desc = "Yank image and copy it to clipboard" }
-
-    { on = "<C-t>", run = [
-        '''
-        shell 'rm -rf ~/.local/share/Trash/*' --confirm
-        '''
-    ], desc = "Empty trash" }
 ]
 
