@@ -44,6 +44,8 @@ vim.api.nvim_create_autocmd("BufWritePre", {
   group = vim.api.nvim_create_augroup("FormatOnSave", { clear = true }),
   pattern = "*",
   callback = function()
-    require("conform").format({ async = false })
+    require("conform").format { async = false }
   end,
 })
+
+vim.o.cmdheight = 0

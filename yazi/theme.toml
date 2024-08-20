@@ -1,0 +1,49 @@
+[manager]
+preview_hovered = { fg = "black", bg = "cyan" }
+hovered = { fg = "black", bg = "cyan"}
+
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "black", bg = "gray" }
+# Mode
+mode_normal = { fg = "white", bg = "blue", bold = true }
+mode_select = { fg = "black", bg = "green", bold = true }
+mode_unset  = { fg = "black", bg = "magenta", bold = true }
+
+# Progress
+progress_label  = { fg = "white", bold = true }
+progress_normal = { fg = "black", bg = "gray" }
+progress_error  = { fg = "lightred", bg = "gray" }
+
+# Permissions
+permissions_t = { fg = "white" }
+permissions_r = { fg = "green" }
+permissions_w = { fg = "red" }
+permissions_x = { fg = "green" }
+permissions_s = { fg = "white" }
+
+[filetype]
+rules = [
+    # Images
+    { mime = "image/*", fg = "cyan" },
+
+    # Videos
+    { mime = "video/*", fg = "lightgreen" },
+    { mime = "audio/*", fg = "lightgreen" },
+
+    # Archives
+    { mime = "application/zip",             fg = "lightred" },
+    { mime = "application/gzip",            fg = "lightred" },
+    { mime = "application/x-tar",           fg = "lightred" },
+    { mime = "application/x-bzip",          fg = "lightred" },
+    { mime = "application/x-bzip2",         fg = "lightred" },
+    { mime = "application/x-7z-compressed", fg = "lightred" },
+    { mime = "application/x-rar",           fg = "lightred" },
+
+    # Fallback
+    { name = "*", fg = "white" },
+    { name = "*/", fg = "cyan" }
+]
+

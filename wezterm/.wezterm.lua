@@ -9,6 +9,7 @@ config.font_size = 12
 config.enable_tab_bar = false
 config.window_close_confirmation = "NeverPrompt"
 config.line_height = 1.1
+config.audible_bell = "Disabled"
 
 config.colors = {
 	foreground = "#fbf1c7",
@@ -21,15 +22,15 @@ config.colors = {
 
 	split = "#665c54",
 
-	ansi = { "#1d2021", "#cc241d", "#b8bb26", "#fabd2f", "#458588", "#b16286", "#83a598", "#bdae93" },
+	ansi = { "#282828", "#cc241d", "#b8bb26", "#fabd2f", "#458588", "#b16286", "#83a598", "#32302f" },
 	brights = { "#665c54", "#fb4934", "#b8bb26", "#fabd2f", "#458588", "#b16286", "#8ec07c", "#fbf1c7" },
 }
 
 config.window_padding = {
-	left = "20px",
-	right = "18px",
-	top = "20px",
-	bottom = "15px",
+	left = "14pt",
+	right = "15pt",
+	top = "17pt",
+	bottom = "14pt",
 }
 
 return config
