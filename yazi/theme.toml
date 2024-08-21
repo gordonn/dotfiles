@@ -1,21 +1,22 @@
 [manager]
-preview_hovered = { fg = "black", bg = "cyan" }
-hovered = { fg = "black", bg = "cyan"}
-
+cwd = { fg = "white"}
+preview_hovered = { fg = "black", bg = "blue" }
+hovered = { fg = "black", bg = "blue"}
+border_style = { fg = "#32302f"}
 
 [status]
 separator_open  = ""
 separator_close = ""
-separator_style = { fg = "black", bg = "gray" }
+separator_style = { fg = "black", bg = "#32302f" }
 # Mode
-mode_normal = { fg = "white", bg = "blue", bold = true }
-mode_select = { fg = "black", bg = "green", bold = true }
-mode_unset  = { fg = "black", bg = "magenta", bold = true }
+mode_normal = { fg = "white", bg = "#458588", bold = true }
+mode_select = { fg = "white", bg = "green", bold = true }
+mode_unset  = { fg = "white", bg = "magenta", bold = true }
 
 # Progress
 progress_label  = { fg = "white", bold = true }
 progress_normal = { fg = "black", bg = "gray" }
-progress_error  = { fg = "lightred", bg = "gray" }
+progress_error  = { fg = "red", bg = "gray" }
 
 # Permissions
 permissions_t = { fg = "white" }
@@ -27,7 +28,7 @@ permissions_s = { fg = "white" }
 [filetype]
 rules = [
     # Images
-    { mime = "image/*", fg = "cyan" },
+    { mime = "image/*", fg = "blue" },
 
     # Videos
     { mime = "video/*", fg = "lightgreen" },
@@ -44,6 +45,6 @@ rules = [
 
     # Fallback
     { name = "*", fg = "white" },
-    { name = "*/", fg = "cyan" }
+    { name = "*/", fg = "blue" }
 ]
 

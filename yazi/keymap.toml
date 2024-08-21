@@ -1,7 +1,7 @@
 [manager]
 prepend_keymap = [
-    { on = "<C-k>", run = "arrow 5", desc = "Move up 5 lines" },
-    { on = "<C-j>", run = "arrow -5", desc = "Move down 5 lines" },
+    { on = "<C-j>", run = "arrow 5", desc = "Move down 5 lines" },
+    { on = "<C-k>", run = "arrow -5", desc = "Move up 5 lines" },
     { on = "<Esc>", run = "unyank", desc = "Unyank file" },
     { on = "y", run = [
         '''

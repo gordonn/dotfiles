@@ -32,3 +32,5 @@ alias ls="eza --icons=always"
 
 # Zoxide (better cd)
 eval "$(zoxide init zsh)"
+
+print true >>~/.zlogin
