@@ -14,8 +14,8 @@ config.audible_bell = "Disabled"
 config.color_scheme = "Gruvbox dark, medium (base16)"
 
 config.window_padding = {
-	left = "15pt",
-	right = "10pt",
+	left = "16pt",
+	right = "12pt",
 	top = "18pt",
 	bottom = "15pt",
 }

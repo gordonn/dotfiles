@@ -47,5 +47,3 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     require("conform").format { async = false }
   end,
 })
-
-vim.o.cmdheight = 0
