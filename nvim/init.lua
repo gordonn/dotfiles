@@ -37,7 +37,6 @@ vim.schedule(function()
 end)
 
 vim.opt.relativenumber = true
-
 vim.opt.scrolloff = 999
 
 vim.api.nvim_create_autocmd("BufWritePre", {
