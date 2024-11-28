@@ -1,5 +1,3 @@
 # 🍚 preview
 
-![image](https://github.com/user-attachments/assets/4f8c8d34-1f9c-4083-8970-8015cbf633d3)
-
-![image](https://github.com/user-attachments/assets/ada5875c-5607-4082-bfb9-e09bdf02e487)
+![image](https://github.com/user-attachments/assets/b9273acd-71d2-41e4-9716-5fc33ec6eb1e)
