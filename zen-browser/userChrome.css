@@ -1,0 +1,5 @@
+/* Hide the audio playing and muted icons in tabs */
+.tab-icon-overlay[muted],
+.tab-icon-overlay[soundplaying] {
+  display: none !important;
+}

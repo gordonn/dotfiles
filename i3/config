@@ -61,10 +61,10 @@ bindsym $mod+Return exec --no-startup-id wezterm
 bindsym $mod+o kill
 
 # start firefox
-bindsym $mod+p exec --no-startup-id firefox
+bindsym $mod+p exec --no-startup-id zen-browser
 
 # start betterlockscreen
-bindsym $mod+shift+x exec --no-startup-id betterlockscreen -l dim
+bindsym $mod+shift+x exec --no-startup-id betterlockscreen -l
 
 # flameshot
 bindsym $mod+u exec --no-startup-id flameshot gui
@@ -234,4 +234,3 @@ for_window [class=".*"] border pixel 1, move
 gaps inner 16
 
 # for a total gap of 10px to the screen edges, and 5px between windows.
-
