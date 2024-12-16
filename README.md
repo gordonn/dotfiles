@@ -17,7 +17,7 @@
 
 `zen.workspaces.show-workspace-indicator` = `false`
 
-In Zen Settings > Home, set New Tabs and Homepage and new windows to `Blank Page`
+In Zen Settings > Home, set New Tabs and Homepage and new windows to `Blank Page`.
 
 *Websites without a background will display the browser UI underneath the content.
 
