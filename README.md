@@ -14,6 +14,7 @@
 
 ## `about:config` Options:
 `browser.tabs.allow_transparent_browser` = `true`*
+
 `zen.workspaces.show-workspace-indicator` = `false`
 
 In Zen Settings > Home, set New Tabs  to `Blank Page`
