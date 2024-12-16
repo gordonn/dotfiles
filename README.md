@@ -6,12 +6,10 @@
 
 # Zen Browser Set Up
 
-# Color Theme:
----
+### Color Theme:
 ![theme](https://github.com/user-attachments/assets/eddfd23a-424b-430f-bc85-60f2c929411f)
 
-# `about:config` Options:
----
+### `about:config` Options:
 `browser.tabs.allow_transparent_browser` = `true`*
 
 `zen.workspaces.show-workspace-indicator` = `false`
@@ -20,4 +18,7 @@ In Zen Settings > Home, set New Tabs  to `Blank Page`
 
 *Websites without a background will display the browser UI underneath the content.
 
-Other: Remove all the toolbar items, make the URL bar floating in the settings and disabling bookmarks bar.
+### Other Options
+- Remove all the removeable toolbar items for a more minimal feel
+- Make the URL bar floating in Zen Settings > Look and Feel
+- Disabling bookmarks bar
