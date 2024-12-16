@@ -21,7 +21,7 @@ In Zen Settings > Home, set New Tabs and Homepage and new windows to `Blank Page
 
 *Websites without a background will display the browser UI underneath the content.
 
-## Other Options
+## Other Options:
 - Remove all the removeable toolbar items for a more minimal feel
 - Make the URL bar floating in Zen Settings > Look and Feel
 - Disabling bookmarks bar
