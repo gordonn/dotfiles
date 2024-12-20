@@ -2,4 +2,4 @@
 
 ### 🍚 preview
 
-pictures/rice.png
+![image](https://github.com/user-attachments/assets/8dfe3e44-f24c-4b4e-9c13-7101e679e508)
