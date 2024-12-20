@@ -1,0 +1,6 @@
+[manager] 
+show_hidden = true
+ratio = [2, 3, 3]
+sort_by = "mtime"
+image_quality = 90
+sort_reverse = true
