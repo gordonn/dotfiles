@@ -6,13 +6,13 @@ border_style = { fg = "#32302f"}
 
 [mode]
 normal_main = { fg = "white", bg = "#458588", bold = true }
-normal_alt  = { fg = "#458588", bg = "#282828"}
+normal_alt  = { fg = "#458588", bg = "#32302f"}
 
 select_main = { fg = "white", bg = "#458588", bold = true }
-select_alt  = { fg = "#282828", bg = "#282828"}
+select_alt  = { fg = "#282828", bg = "#32302f"}
 
 unset_main = { fg = "white", bg = "#458588", bold = true }
-unset_alt  = { fg = "#458588", bg = "#282828"}
+unset_alt  = { fg = "#458588", bg = "#32302f"}
 
 [status]
 separator_open  = ""
@@ -53,4 +53,3 @@ rules = [
     { name = "*", fg = "white" },
     { name = "*/", fg = "blue" }
 ]
-
