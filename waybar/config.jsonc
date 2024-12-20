@@ -61,7 +61,8 @@
     "custom/logo": {
         "format": "<big>󰣇</big>",
         "interval": "once",
-        "tooltip": false
+        "tooltip": false,
+        "on-click": "sh ~/.config/rofi/applets/bin/quicklinks.sh"
     },
 
     "custom/power": {
@@ -156,3 +157,4 @@
         "tooltip": false
     }
 }
+
