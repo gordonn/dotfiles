@@ -68,7 +68,7 @@
         "format": "",
         "interval": "once",
         "tooltip": false,
-        "on-click": "sh ~/.config/rofi/powermenu/type-6/powermenu.sh"
+        "on-click": "sh ~/.config/rofi/powermenu/powermenu.sh"
     },
 
     "cpu": {
