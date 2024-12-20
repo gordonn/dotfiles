@@ -4,10 +4,10 @@ prepend_keymap = [
     { on = "<C-k>", run = "arrow -5", desc = "Move up 5 lines" },
     { on = "<Esc>", run = "unyank", desc = "Unyank file" },
     { on = "y", run = [
-        '''
-        shell 'xclip -selection clipboard -t image/png -i "$@"' --confirm
-        ''',
-        "yank"
+      '''
+      shell 'cat "$@" | wl-copy --type image/png' --confirm
+      ''',
+      "yank"    
     ], desc = "Yank image and copy it to clipboard" }
 ]
 
