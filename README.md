@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/8043995b-407a-4372-8594-2cf23bfe19be)
 
-# 🍚 preview
+# 🍚 previews
 
 ![Screenshot_2024-12-20-01-53-23_1920x1080](https://github.com/user-attachments/assets/b6e9011e-85e0-448a-b318-074933d4d0e6)
 
