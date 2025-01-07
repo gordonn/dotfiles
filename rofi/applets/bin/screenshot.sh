@@ -94,8 +94,8 @@ shotwin () {
 
 # Capture in 8 seconds (sleep 8 and run hyprshot)
 shot8sec () {
-	sleep 8
-	hyprshot -m output --output-folder "$dir" --filename "$(basename "$file")"
+    sleep 8
+    grim -o "$output" "$dir/$(basename "$file")"
 }
 
 # Execute Command

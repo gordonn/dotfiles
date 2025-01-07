@@ -64,7 +64,7 @@ run_cmd() {
 	if [[ "$1" == '--opt1' ]]; then
 		swww img ~/hyprFlow/wallpapers/forest-stairs.jpg --transition-type any
 	elif [[ "$1" == '--opt2' ]]; then
-		swww img ~/hyprFlow/wallpapers/gruvbox-beach-dim.png --transition-type any
+		swww img ~/hyprFlow/wallpapers/gruvbox-beach.png --transition-type any
 	elif [[ "$1" == '--opt3' ]]; then
 		swww img ~/hyprFlow/wallpapers/macos-monterey.jpg --transition-type any
 	elif [[ "$1" == '--opt4' ]]; then

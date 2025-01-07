@@ -61,8 +61,7 @@
     "custom/logo": {
         "format": "<big>󰣇</big>",
         "interval": "once",
-        "tooltip": false,
-        "on-click": "sh ~/.config/rofi/applets/bin/quicklinks.sh"
+        "tooltip": false
     },
 
     "custom/power": {
@@ -98,7 +97,7 @@
     "hyprland/workspaces": {
         "format": "<span font='12px'>{icon}</span>",
         "format-icons": {
-            "active": "<big>󱨇</big>",
+            "active": "<big></big>",
             "default": "<big></big>"
         },
         "disable-scroll": true,
@@ -157,4 +156,3 @@
         "tooltip": false
     }
 }
-
