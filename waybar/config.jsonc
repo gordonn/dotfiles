@@ -29,8 +29,6 @@
         "custom/l_end", "custom/cpu-icon", "cpu", "custom/r_end",
         "custom/padd",
         "custom/l_end", "custom/memory-icon", "memory", "custom/r_end",
-        "custom/padd",
-        "custom/l_end", "custom/power", "custom/r_end",
         "custom/padd"
     ],
 
