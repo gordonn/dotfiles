@@ -1,7 +1,7 @@
 [manager]
 cwd = { fg = "white"}
-preview_hovered = { fg = "black", bg = "blue" }
-hovered = { fg = "black", bg = "blue"}
+preview_hovered = { bg = "#32302f", fg = "#458588" }
+hovered = { bg = "#32302f", fg = "#458588"}
 border_style = { fg = "#32302f"}
 
 [mode]
@@ -33,23 +33,7 @@ permissions_s = { fg = "white" }
 
 [filetype]
 rules = [
-    # Images
-    { mime = "image/*", fg = "blue" },
-
-    # Videos
-    { mime = "video/*", fg = "lightgreen" },
-    { mime = "audio/*", fg = "lightgreen" },
-
-    # Archives
-    { mime = "application/zip",             fg = "lightred" },
-    { mime = "application/gzip",            fg = "lightred" },
-    { mime = "application/x-tar",           fg = "lightred" },
-    { mime = "application/x-bzip",          fg = "lightred" },
-    { mime = "application/x-bzip2",         fg = "lightred" },
-    { mime = "application/x-7z-compressed", fg = "lightred" },
-    { mime = "application/x-rar",           fg = "lightred" },
-
     # Fallback
     { name = "*", fg = "white" },
-    { name = "*/", fg = "blue" }
+    { name = "*/", fg = "#458588" }
 ]
