@@ -61,7 +61,7 @@ window {
     border-radius:               8px;
     cursor:                      "default";
     background-color:            @background;
-    border-color:               @foreground;
+    border-color:                #7C6F64FF;
     border:                     2px solid;
 }
 

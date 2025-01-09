@@ -59,7 +59,7 @@ window {
     padding:                     0px;
     border:                      2px solid;
     border-radius:               8px;
-    border-color:                @foreground;
+    border-color:                #7C6F64FF;
     cursor:                      "default";
     background-color:            @background;
 }
