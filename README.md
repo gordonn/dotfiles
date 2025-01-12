@@ -8,5 +8,4 @@
 
 ## 📝 Credits
 
-- <b>Rofi:</b> https://github.com/adi1090x/rofi
 - <b>Hyprlock:</b> https://github.com/FireDrop6000/hyprland-mydots
