@@ -6,8 +6,6 @@
 
 ![2024-12-20_02-06-24](https://github.com/user-attachments/assets/4eaceac7-19f8-4f87-bb97-22e13cd2dd3c)
 
-![image](https://github.com/user-attachments/assets/fe63b0be-bb71-45a3-a4a2-b94ae8b6985e)
-
 ## 📝 Credits
 
 - <b>Hyprlock:</b> https://github.com/FireDrop6000/hyprland-mydots
