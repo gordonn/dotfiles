@@ -18,3 +18,4 @@ window-padding-y = 25, 22
 
 window-decoration = false
 confirm-close-surface = false
+resize-overlay = never
