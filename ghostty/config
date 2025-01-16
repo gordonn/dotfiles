@@ -1,0 +1,20 @@
+background = 282828
+font-family = IosevkaTerm Nerd Font
+font-size = 12
+
+keybind = ctrl+o=close_surface
+keybind = ctrl+i=equalize_splits
+keybind = shift+ctrl+h=resize_split:left,50
+keybind = shift+ctrl+l=resize_split:right,50
+keybind = shift+ctrl+j=resize_split:down,50
+keybind = shift+ctrl+k=resize_split:up,50
+
+adjust-cell-height = 20%
+
+theme = GruvboxDark
+
+window-padding-x = 26, 24
+window-padding-y = 25, 22
+
+window-decoration = false
+confirm-close-surface = false
