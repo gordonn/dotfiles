@@ -10,7 +10,7 @@ keybind = shift+ctrl+j=resize_split:down,50
 
 keybind = shift+ctrl+k=goto_split:next
 
-adjust-cell-height = 20%
+adjust-cell-height = 30%
 
 theme = GruvboxDark
 
