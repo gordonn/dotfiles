@@ -1,15 +1,17 @@
 font-family = IosevkaTerm Nerd Font
 font-size = 12
 
-keybind = ctrl+o=close_surface
-keybind = ctrl+i=equalize_splits
+keybind = ctrl+p=close_surface
+
+keybind = ctrl+i=new_split:right
+keybind = ctrl+o=new_split:down
 
 keybind = shift+ctrl+l=resize_split:right,50
 keybind = shift+ctrl+j=resize_split:down,50
 keybind = shift+ctrl+k=resize_split:up,50
 keybind = shift+ctrl+h=resize_split:left,50
 
-keybind = shift+ctrl+n=goto_split:next
+keybind = ctrl+n=goto_split:next
 
 adjust-cell-height = 30%
 
