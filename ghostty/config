@@ -12,6 +12,7 @@ keybind = shift+ctrl+k=resize_split:up,50
 keybind = shift+ctrl+h=resize_split:left,50
 
 keybind = ctrl+n=goto_split:next
+keybind = ctrl+t=next_tab
 
 adjust-cell-height = 30%
 
