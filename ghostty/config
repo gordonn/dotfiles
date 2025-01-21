@@ -20,8 +20,9 @@ adjust-cell-height = 30%
 
 theme = GruvboxDark
 
-window-padding-x = 26, 24
-window-padding-y = 25, 22
+window-padding-x = 25, 25
+window-padding-y = 25, 25
+window-padding-balance = true
 
 window-decoration = false
 confirm-close-surface = false
