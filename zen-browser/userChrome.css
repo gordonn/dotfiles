@@ -11,4 +11,6 @@ zen.workspaces.show-workspace-indicator = false
 zen.view.grey-out-inactive-windows = false
 zen.theme.essentials-favicon-bg = false
 zen.view.experimental-no-window-controls = ture
+
+Go in profile directory and delete the "zen-keyboard-shortcuts.json"
 */
