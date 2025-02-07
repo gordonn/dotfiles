@@ -4,6 +4,11 @@
   display: none !important;
 }
 
+/* Hide URL hover status bar in bottom left */
+#statuspanel {
+    display: none !important;
+}
+
 /*
 about:config Options:
 browser.tabs.allow_transparent_browser = true*
