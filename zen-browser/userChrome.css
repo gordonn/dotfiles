@@ -17,9 +17,16 @@ zen.view.grey-out-inactive-windows = false
 zen.theme.essentials-favicon-bg = false
 zen.view.experimental-no-window-controls = ture
 
+---
+
 Go in profile directory and delete the "zen-keyboard-shortcuts.json"
+
+---
 
 Look and Feel Settings:
 Show New Tab Button on Tab List = Checked
 Show separation border for when the new tab button is at the bottom = Checked
+
+Split View:
+Change tabs on hover = Checked
 */
