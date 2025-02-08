@@ -11,11 +11,15 @@
 
 /*
 about:config Options:
-browser.tabs.allow_transparent_browser = true*
+browser.tabs.allow_transparent_browser = true
 zen.workspaces.show-workspace-indicator = false
 zen.view.grey-out-inactive-windows = false
 zen.theme.essentials-favicon-bg = false
 zen.view.experimental-no-window-controls = ture
+
+browser.search.update = false
+browser.search.suggest.enabled = false
+browser.search.suggest.enabled.private = false
 
 Go in profile directory and delete the "zen-keyboard-shortcuts.json"
 */
