@@ -1,0 +1,42 @@
+/* Hide the audio playing and muted icons in tabs */
+.tab-icon-overlay[muted],
+.tab-icon-overlay[soundplaying] {
+  display: none !important;
+}
+
+/* Hide URL hover status bar in bottom left */
+#statuspanel {
+    display: none !important;
+}
+
+/* Hide attention icon (green dot) under tab icons */
+#navigator-toolbox {
+  .tabbrowser-tab:is([image], [pinned]) > .tab-stack > .tab-content[attention]:not([selected]),
+  .tabbrowser-tab > .tab-stack > .tab-content[pinned][titlechanged]:not([selected]),
+  .tabbrowser-tab > .tab-stack > .tab-content[titlechanged]:not([selected="true"]) {
+    background-image: none !important;
+  }
+}
+
+/*
+about:config Options:
+browser.tabs.allow_transparent_browser = true
+zen.workspaces.show-workspace-indicator = false
+zen.view.grey-out-inactive-windows = false
+zen.theme.essentials-favicon-bg = false
+zen.view.experimental-no-window-controls = ture
+zen.urlbar.replace-newtab = false
+
+---
+
+Go in profile directory and delete the "zen-keyboard-shortcuts.json"
+
+---
+
+Look and Feel Settings:
+Show New Tab Button on Tab List = Checked
+Show separation border for when the new tab button is at the bottom = Checked
+
+Split View:
+Change tabs on hover = Checked
+*/
