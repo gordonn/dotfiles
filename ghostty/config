@@ -16,12 +16,14 @@ keybind = ctrl+u=goto_split:next
 keybind = ctrl+tab=new_tab
 keybind = ctrl+t=next_tab
 
-adjust-cell-height = 30%
+adjust-cell-height = 25%
 
-theme = GruvboxDark
+theme = GruvboxDark 
+background-opacity = 0.75
+background-blur-radius = 20
 
-window-padding-x = 25, 25
-window-padding-y = 25, 25
+window-padding-x = 0, 0
+window-padding-y = 0, 0
 window-padding-balance = true
 
 window-decoration = false

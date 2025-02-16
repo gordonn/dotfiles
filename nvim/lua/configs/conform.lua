@@ -3,8 +3,7 @@ local options = {
     lua = { "stylua" },
     css = { "prettier" },
     html = { "prettier" },
-    javascript = { "prettier" },
-    c = { "clang-format" },
+    c = { "clang_format" },
   },
 
   format_on_save = {

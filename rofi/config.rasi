@@ -5,4 +5,4 @@ configuration {
 	drun-display-format:        "{name}";
 }
 
-@theme "~/.config/rofi/gruvbox.rasi"
+@theme "~/.config/rofi/theme.rasi"

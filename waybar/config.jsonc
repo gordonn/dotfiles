@@ -9,6 +9,7 @@
     "gtk-layer-shell": true,
     "width": 1300,
     "margin-top": 10,
+    "margin-bottom": 10,
 
     "modules-left": [
         "custom/padd",
@@ -21,8 +22,6 @@
     "modules-right": [
         "custom/padd",
         "custom/l_end", "custom/audio-icon", "pulseaudio", "custom/r_end",
-        "custom/padd",
-        "custom/l_end", "custom/network-icon", "network", "custom/r_end",
         "custom/padd",
         "custom/l_end", "clock", "custom/r_end",
         "custom/padd",
