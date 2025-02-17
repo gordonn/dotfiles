@@ -8,6 +8,17 @@
 
 | Utility | Purpose |
 |----------|----------|
-| wlsunset | Gamma and color temp tool for wayland|
-| Data 3   | Data 4   |
-| Data 5   | Data 6   |
+| wlsunset | Gamma and Color Temp Tool for Wayland |
+| Waybar | Status Bar for Wayland |
+| rofi-wayland | Wayland Fork of Rofi Menu |
+| Hyprshot | Screenshot Utility for Hyprland |
+| Hyprland | Wayland Compositor |
+| Hyprlock | Lockscreen Utiltity for Hyprland |
+| Bibata Cursors | Cross Platform Cursor Pack |
+| swww | Wallpaper Daemon for Wayland |
+| Gnome | Gnome DE, Nautilus File Manager and GDM |
+| i3WM | X11 Window Manager |
+| picom | Compositor for i3 |
+| IosevkaTerm Nerd Font | Primary Font |
+| Flameshot | Screenshot Utiltity for i3 |
+| betterlockscreen | Lockscreen Utiltity for i3 |
