@@ -10,7 +10,7 @@
 |----------|----------|
 | wlsunset | Gamma and Color Temp Tool for Wayland |
 | Waybar | Status Bar for Wayland |
-| rofi-wayland | Wayland Fork of Rofi Menu |
+| rofi-wayland | Wayland Fork for Rofi Menu |
 | Hyprshot | Screenshot Utility for Hyprland |
 | Hyprland | Wayland Compositor |
 | Hyprlock | Lockscreen Utiltity for Hyprland |
