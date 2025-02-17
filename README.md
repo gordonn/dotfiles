@@ -8,6 +8,6 @@
 
 | Utility | Purpose |
 |----------|----------|
-| Data 1   | Data 2   |
+| wlsunset | Gamma and color temp tool for wayland|
 | Data 3   | Data 4   |
 | Data 5   | Data 6   |
