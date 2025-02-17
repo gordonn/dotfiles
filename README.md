@@ -20,5 +20,7 @@
 | i3WM | X11 Window Manager |
 | picom | Compositor for i3 |
 | IosevkaTerm Nerd Font | Primary Font |
+| JetBrainsMono Nerd Font | Secondary Font |
+| SF Pro Display Bold | Font for Hyprlock |
 | Flameshot | Screenshot Utiltity for i3 |
 | betterlockscreen | Lockscreen Utiltity for i3 |
