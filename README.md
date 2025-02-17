@@ -4,7 +4,7 @@
 
 ![image](https://github.com/user-attachments/assets/43d8de07-ae01-41ce-8387-55a843bfbbc1)
 
-# Utilties
+# ⚙️ utilties
 
 | Utility | Purpose |
 |----------|----------|
