@@ -12,7 +12,6 @@
 | Waybar | Status Bar for Wayland |
 | rofi-wayland | Wayland Fork for Rofi Menu |
 | Hyprshot | Screenshot Utility for Hyprland |
-| Hyprland | Wayland Compositor |
 | Hyprlock | Lockscreen Utiltity for Hyprland |
 | Bibata Cursors | Cross Platform Cursor Pack |
 | swww | Wallpaper Daemon for Wayland |
