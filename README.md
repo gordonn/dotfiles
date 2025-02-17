@@ -19,3 +19,5 @@
 | IosevkaTerm Nerd Font | Primary Font |
 | JetBrainsMono Nerd Font | Secondary Font |
 | SF Pro Display Bold | Font for Hyprlock |
+| Powerlevel10k | Zsh Prompt |
+| Zsh Utilties | QOL Utilities |
