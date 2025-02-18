@@ -27,14 +27,8 @@
  }
 
  #workspaces button.active {
-   /* background: #2B2F38; */
    color: #83a598;
-   /* margin-left: 1px; 
-    padding-left: 4px;
-    padding-right: 8px;
-    margin-right: 1px; */
    animation: ws_active 20s ease-in-out 1;
-   /* transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682); */
  }
 
  #workspaces button:not(.active):not(.empty):not(:hover) {
