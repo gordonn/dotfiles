@@ -16,7 +16,7 @@
 | Bibata Cursors | Cross Platform Cursor Pack |
 | swww | Wallpaper Daemon for Wayland |
 | Gnome | Gnome DE, Nautilus File Manager and GDM |
-| IosevkaTerm Nerd Font | Primary Font |
-| JetBrainsMono Nerd Font | Secondary Font |
-| SF Pro Display Bold | Font for Hyprlock |
+| IosevkaTerm Nerd Font | Terminal Font |
+| JetBrainsMono Nerd Font | Waybar Font |
+| SF Pro Display Bold | Hyprlock Font |
 | Powerlevel10k | Zsh Prompt |
