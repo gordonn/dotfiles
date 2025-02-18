@@ -1,8 +1,8 @@
 /*****----- Configuration -----*****/
 configuration {
-  modi:                       "drun";
+	modi:                       "drun";
   show-icons:                 false;
-  drun-display-format:        "{name}";
+	drun-display-format:        "{name}";
 }
 
 @theme "~/.config/rofi/theme.rasi"
