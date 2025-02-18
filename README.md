@@ -3,20 +3,3 @@
 # 🍚 preview
 
 ![image](https://github.com/user-attachments/assets/43d8de07-ae01-41ce-8387-55a843bfbbc1)
-
-# ⚙️ utilties
-
-| Utility | Purpose |
-|----------|----------|
-| wlsunset | Gamma and Color Temp Tool for Wayland |
-| Waybar | Status Bar for Wayland |
-| rofi-wayland | Wayland Fork for Rofi Menu |
-| Hyprshot | Screenshot Utility for Hyprland |
-| Hyprlock | Lockscreen Utiltity for Hyprland |
-| Bibata Cursors | Cross Platform Cursor Pack |
-| swww | Wallpaper Daemon for Wayland |
-| Gnome | Gnome DE, Nautilus File Manager and GDM |
-| IosevkaTerm Nerd Font | Terminal Font |
-| JetBrainsMono Nerd Font | Waybar Font |
-| SF Pro Display Bold | Hyprlock Font |
-| Powerlevel10k | Zsh Prompt |
