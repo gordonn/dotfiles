@@ -2,4 +2,4 @@
 
 # 🍚 preview
 
-![image](https://github.com/user-attachments/assets/16bc9ac8-3884-4859-ac79-ee290c316f51)
+![image](https://github.com/user-attachments/assets/c662b6ef-c088-4df1-b8a0-ed1eb2c464b6)
