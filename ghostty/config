@@ -18,7 +18,7 @@ keybind = ctrl+t=next_tab
 
 adjust-cell-height = 25%
 
-theme = GruvboxDark 
+theme = IC_Orange_PPL
 background-opacity = 0.75
 background-blur-radius = 20
 
