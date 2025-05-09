@@ -7,7 +7,7 @@
  }
 
  window#waybar {
-   background: #1d2021;
+   background: #212121;
    border-radius: 10px;
  }
 
@@ -22,28 +22,28 @@
    padding-left: 6px;
    padding-right: 10px;
    margin-right: 0px;
-   color: #504945;
+   color: #4d4d4d;
    animation: ws_normal 20s ease-in-out 1;
  }
 
  #workspaces button.active {
-   color: #83a598;
+   color: #ff8a65;
    animation: ws_active 20s ease-in-out 1;
  }
 
  #workspaces button:not(.active):not(.empty):not(:hover) {
-   color: #fbf1c7;
+   color: #fafafa;
  }
 
  #workspaces button:hover {
-   background: #504945;
-   color: #fbf1c7;
+   background: #4d4d4d;
+   color: #fafafa;
    animation: ws_hover 20s ease-in-out 1;
    transition: all 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
  }
 
  #workspaces button.active:hover {
-   color: #83a598;
+   color: #ff8a65;
  }
 
  #battery,
@@ -62,8 +62,8 @@
  #custom-cpu-icon,
  #custom-memory-icon,
  #custom-r_end {
-   color: #fbf1c7;
-   background: #282828;
+   color: #fafafa;
+   background: #2a2a2a;
    opacity: 1;
    margin: 8px 0px 8px 0px;
    padding-left: 4px;
@@ -75,7 +75,7 @@
  #custom-network-icon,
  #custom-memory-icon {
    font-size: 16px;
-   color: #504945;
+   color: #4d4d4d;
  }
 
  #custom-l_end {
@@ -89,13 +89,6 @@
  #custom-logo {
    font-size: 24px;
    padding-left: 0px;
-   color: #8ec07c;
+   color: #8c9eff;
    padding-right: 7px;
- }
-
- #custom-power {
-   font-size: 20px;
-   padding-left: 3px;
-   padding-right: 7px;
-   color: #fb4934;
  }
