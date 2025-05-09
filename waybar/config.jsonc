@@ -126,12 +126,12 @@
         "tooltip": false
     },
 
-  "clock": {
-      "format": "{:%I:%M %p / %d %B}",
+    "clock": {
+      "format": "{:%d %B - %I:%M %p}",
       "rotate": 0,
-      "format-alt": "{:%I:%M %p / %d %B}",
+      "format-alt": "{:%I:%M %p - %d %B}",
       "tooltip": false
-  },
+    },
 
     // modules for padding //
 
