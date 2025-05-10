@@ -129,7 +129,6 @@
     "clock": {
       "format": "{:%d %B - %I:%M %p}",
       "rotate": 0,
-      "format-alt": "{:%I:%M %p - %d %B}",
       "tooltip": false
     },
 
