@@ -1,113 +1,146 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
+            "id": "User.copy.644BA8F2"
         },
         {
             "command": "paste",
-            "id": "User.paste",
-            "keys": "ctrl+v"
+            "id": "User.paste"
         },
         {
-            "command": 
-            {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
-        },
-        {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
+            "id": "User.splitPane.A6751878"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
-    "newTabMenu": 
-    [
+    "defaultProfile": "{0dec19eb-ccaf-5e61-8ad1-d7826e0ad602}",
+    "keybindings": [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
-    {
+    "profiles": {
         "defaults": {},
-        "list": 
-        [
+        "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": {
+                    "face": "IosevkaTerm Nerd Font",
+                    "size": 15
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "fontFace": "IosevkaTerm Nerd Font",
-                "fontSize": 15,
                 "padding": "0,0,0,0",
                 "scrollbarState": "hidden"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "font": {
+                    "face": "IosevkaTerm Nerd Font",
+                    "size": 15
+                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt",
-                "fontFace": "IosevkaTerm Nerd Font",
-                "fontSize": 15,
                 "padding": "0,0,0,0",
                 "scrollbarState": "hidden"
             },
             {
+                "font": {
+                    "face": "IosevkaTerm Nerd Font",
+                    "size": 15
+                },
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure",
-                "fontFace": "IosevkaTerm Nerd Font",
-                "fontSize": 15,
                 "padding": "0,0,0,0",
-                "scrollbarState": "hidden"
+                "scrollbarState": "hidden",
+                "source": "Windows.Terminal.Azure"
             },
             {
+                "font": {
+                    "face": "IosevkaTerm Nerd Font",
+                    "size": 15
+                },
                 "guid": "{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}",
                 "hidden": false,
                 "name": "Ubuntu 22.04.3 LTS",
-                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-                "fontFace": "IosevkaTerm Nerd Font",
-                "fontSize": 15,
                 "padding": "0,0,0,0",
-                "scrollbarState": "hidden"
+                "scrollbarState": "hidden",
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
             },
             {
-                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
-                "hidden": false,
-                "name": "Arch",
-                "source": "Windows.Terminal.Wsl",
-                "fontFace": "IosevkaTerm Nerd Font",
-                "fontSize": 15,
-                "padding": "0,0,0,0",
-                "scrollbarState": "hidden"
-            },
-            {
+                "font": {
+                    "face": "IosevkaTerm Nerd Font",
+                    "size": 15
+                },
                 "guid": "{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}",
                 "hidden": false,
                 "name": "Ubuntu 22.04.5 LTS",
-                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-                "fontFace": "IosevkaTerm Nerd Font",
-                "fontSize": 15,
+                "padding": "0,0,0,0",
+                "scrollbarState": "hidden",
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
+            },
+            {
+                "guid": "{0dec19eb-ccaf-5e61-8ad1-d7826e0ad602}",
+                "hidden": false,
+                "name": "Arch",
+                "source": "Microsoft.WSL",
+                "font": {
+                    "face": "IosevkaTerm Nerd Font",
+                    "size": 15
+                },
                 "padding": "0,0,0,0",
                 "scrollbarState": "hidden"
+            },
+            {
+                "guid": "{416a1933-b081-58ae-b637-e4593c0ab5cc}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             }
         ]
     },
+    "schemes": [],
     "themes": []
 }
