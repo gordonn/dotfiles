@@ -1,9 +1,10 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    css = { "prettier" },
+    css = { "css" },
     html = { "prettier" },
-    c = { "clang_format" },
+    c = { "clang-format" },
+    javascript = { "prettier" },
   },
 
   format_on_save = {
