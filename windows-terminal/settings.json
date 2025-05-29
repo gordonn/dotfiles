@@ -1,9 +1,11 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -18,7 +20,8 @@
             "id": "User.find"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -29,35 +32,43 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{0dec19eb-ccaf-5e61-8ad1-d7826e0ad602}",
-    "keybindings": [
-        {
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
-        },
-        {
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "id": "User.paste",
-            "keys": "ctrl+v"
-        },
-        {
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
-        }
-    ],
-    "newTabMenu": [
+"keybindings": 
+[
+    {
+        "id": "User.copy.644BA8F2",
+        "keys": "ctrl+shift+c"
+    },
+    {
+        "id": "User.find",
+        "keys": "ctrl+shift+f"
+    },
+    {
+        "id": "User.paste",
+        "keys": "ctrl+shift+v"
+    },
+    {
+        "id": "User.splitPane.A6751878",
+        "keys": "alt+shift+d"
+    }
+],
+    "newTabMenu": 
+    [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": {
-        "defaults": {},
-        "list": [
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Tango Dark"
+        },
+        "list": 
+        [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "font": {
+                "font": 
+                {
                     "face": "IosevkaTerm Nerd Font",
                     "size": 15
                 },
@@ -69,7 +80,8 @@
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "font": {
+                "font": 
+                {
                     "face": "IosevkaTerm Nerd Font",
                     "size": 15
                 },
@@ -80,7 +92,8 @@
                 "scrollbarState": "hidden"
             },
             {
-                "font": {
+                "font": 
+                {
                     "face": "IosevkaTerm Nerd Font",
                     "size": 15
                 },
@@ -92,7 +105,8 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "font": {
+                "font": 
+                {
                     "face": "IosevkaTerm Nerd Font",
                     "size": 15
                 },
@@ -104,7 +118,8 @@
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
             },
             {
-                "font": {
+                "font": 
+                {
                     "face": "IosevkaTerm Nerd Font",
                     "size": 15
                 },
@@ -116,16 +131,17 @@
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
             },
             {
-                "guid": "{0dec19eb-ccaf-5e61-8ad1-d7826e0ad602}",
-                "hidden": false,
-                "name": "Arch",
-                "source": "Microsoft.WSL",
-                "font": {
+                "font": 
+                {
                     "face": "IosevkaTerm Nerd Font",
                     "size": 15
                 },
+                "guid": "{0dec19eb-ccaf-5e61-8ad1-d7826e0ad602}",
+                "hidden": false,
+                "name": "Arch",
                 "padding": "0,0,0,0",
-                "scrollbarState": "hidden"
+                "scrollbarState": "hidden",
+                "source": "Microsoft.WSL"
             },
             {
                 "guid": "{416a1933-b081-58ae-b637-e4593c0ab5cc}",
