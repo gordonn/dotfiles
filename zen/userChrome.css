@@ -1,16 +1,4 @@
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
-/* only needed once */
-
-/* hide 'overlink' messages */
-#statuspanel[type="overLink"] {
-  opacity: 0 !important;
-}
-
-/* hide all status messages */
-#statuspanel {
-  opacity: 0 !important;
-}
-
-.browserContainer {
-  clip-path: inset(0 round var(--zen-native-inner-radius));
+/* Hide window control buttons (minimize, maximize, close) */
+.titlebar-buttonbox-container {
+  display: none !important;
 }
