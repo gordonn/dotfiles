@@ -8,3 +8,6 @@ html:not([sizemode="fullscreen"]) {
 		clip-path: inset(0 round var(--zen-native-inner-radius));
 	}
 }
+
+/* To simulate pinch to zoom with ctrl + scroll-wheel":
+mousewheel.with_control.action = 5 in about:config */
